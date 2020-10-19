@@ -1,0 +1,275 @@
+/*General Settings*/
+
+body{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+img {
+    width: 100%;
+    overflow: hidden;
+}
+
+hr {
+  margin-top: 40px;
+  border-top: 1px solid #2222223b;
+}
+
+br {
+    display: block;
+    line-height: 80px;
+}
+
+/*end of General Setting*/
+
+
+/*About Me Section*/
+#main h1.text-center{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+h2.featurette-heading{
+
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.col-md-7.col-md-push-5{
+    padding: 60px;
+}
+
+/*end of About Me*/
+
+/*What I'm Good At Section*/
+#whatImgoodat h1.text-center{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.col-md-6{
+    padding: 0px;
+    text-align: left;
+}
+
+#whatImgoodat{
+    background-image: url('images/giraffe.jpg');
+    background-repeat: no-repeat;
+    color: white;
+}
+#whatImgoodat .panel-title{
+    color:white;
+}
+
+.panel-heading{
+    margin: 70px;
+    padding: 0px;
+}
+.panel-default>.panel-heading{
+    background-color: transparent;
+}
+
+.panel-title{
+    font-size:20px;
+    height: 50px;s
+}
+
+.panel{
+    background-color: transparent;
+}
+
+.col-md-4{
+    padding: 30px;
+}
+/*end of What I'm Good At*/
+
+/*skills section*/
+#skills h1.text-center{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+hr.featurette-divider{
+    margin-bottom: 20px;
+}
+
+.bar-grids {
+    padding: 0em;
+    width: 48.24%;
+}
+.bargrids-left {
+    margin-right: 40px;
+}
+.bar-grids h4 {
+    font-size: 1.6em;
+    color: #232323;
+    letter-spacing: 1px;
+    margin-bottom: 1.4em;
+    padding-bottom: 0em;
+    position: relative;
+}
+.bar-grids h4:after {
+    position: absolute;
+    content: "";
+    background: #1cc7d0;
+    width: 20%;
+    height: 2px;
+    left: 1%;
+    bottom: -40%;
+}
+.bar-grids h5 {
+    font-size: 1.2em;
+    color: #000;
+    letter-spacing: 0px;
+    padding-bottom: 0em;
+}
+.bar-grids p {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #333;
+    line-height: 28px;
+    margin-bottom: 3em;
+}
+.bar-grids h4 span.glyphicon {
+    margin-right: 0.8em;
+    color: #ecb731;
+}
+.progress {
+    height: 20px;
+    margin-bottom: 2.2em;
+    background-color: rgba(0, 0, 0, 0.1);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+}
+.prgs-w3agile-last {
+    margin-bottom: 0!important;
+}
+.progress-bar { 
+    background-color: #ff6c5f;
+}
+.bar-grids h6 {
+    font-size: 1em;
+    color: #000;
+    margin-bottom: 0.6em;
+    letter-spacing: 1px;
+}
+.bar-grids h6 span {
+    float: right;
+    font-size: 0.9em;
+}
+.technicaltools-grid1{
+    text-align: center;
+}
+.grid1,.grid2,.grid3 {
+    margin-bottom: 2em;
+}
+.technicaltools-grid1 span.fa {
+    font-size: 30px;
+    border: 1px solid #b5b5b5;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    color: #000;
+    border-radius: 50%;
+    margin-bottom: .5em;
+}
+
+.grid1 span.fa {
+    color: #ff4f81;
+    border:2px solid #ff4f81;
+}
+.grid2 span.fa {
+    color: #1cc7d0;
+    border:2px solid #1cc7d0;
+}
+.grid3 span.fa {
+    color: #8e43e7;
+    border:2px solid #8e43e7;
+}
+.grid4 span.fa {
+    color: #ffc20e;
+    border:2px solid #ffc20e;
+}
+.grid5 span.fa {
+    color: #ed1b2e;
+    border:2px solid #ed1b2e;
+}
+.grid6 span.fa {
+    color: #7fbb00;
+    border:2px solid #7fbb00;
+}
+
+/*end skills*/
+
+
+/*Hobbies Section*/
+#hobbies h1.text-center{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.img-top {
+    margin: 20px;
+    border: 1px solid #ccc;
+    padding: 0px;
+    float: left;
+}
+
+div.img-bot {
+    margin: 45px;
+    border: 1px solid #ccc;
+    padding: 0px;
+    float: left;
+}
+
+
+div.img:hover {
+    border: 1px solid #ffffff;
+}
+
+div.img img {
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+/*end of Hobbies*/
+
+
+/*Contact Section*/
+#contact h1.text-center{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.social{
+    display: inline-flex;
+    margin: 10px;
+}
+
+/*end of Contact*/
+
+
+
+
+
